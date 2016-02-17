@@ -67,7 +67,7 @@
   }(document, 'script', 'facebook-jssdk'));</script>
     <section class="page-header">
       <h1 class="project-name">Map Measure</h1>
-      <h2 class="project-tagline">Measure land area and path distance on a map</h2>
+      <h2 class="project-tagline">Measure land area and path distance on google map like planimeter</h2>
         <a href="https://hellobanny.github.io/dituchi" class="btn">Baidu Map</a>
         <a href="https://itunes.apple.com/app/id476039389" class="btn">Download iOS client</a>
         <a href="https://itunes.apple.com/app/id983873587" class="btn">Download iOS demo</a>
@@ -170,7 +170,7 @@
           var map = new google.maps.Map(document.getElementById('map'), {
               zoom: 5,
               center: {lat: 24.886, lng: -70.268},
-              mapTypeId: google.maps.MapTypeId.TERRAIN
+              mapTypeId: google.maps.MapTypeId.HYBRID
           });
 
           var drawingManager = new google.maps.drawing.DrawingManager({
